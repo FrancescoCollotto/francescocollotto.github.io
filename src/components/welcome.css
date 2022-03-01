@@ -1,0 +1,42 @@
+#welcome-section {
+  height: 100vh;
+  min-height: 565px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: linear-gradient(to right, #284b63, #5e85a0);
+  color: white;
+}
+
+.welcome-name {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.6;
+  /* margin: 0.5rem 0px 1rem; */
+  font-size: 4.5rem;
+  letter-spacing: 0.025em;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .welcome-name {
+    font-size: 3rem;
+  }
+  #p2 {
+    font-size: 2rem;
+  }
+}
+
+#hi-there {
+  background-color: #353535;
+  padding: 5px 0;
+}
+
+#p2 {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.orange {
+  color: #ff9628;
+}
