@@ -5,3 +5,14 @@
   padding-bottom: 5%;
   background: linear-gradient(to left, #ff9628, #f8ae5f);
 }
+
+p {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 767px) {
+  #about {
+    height: auto;
+  }
+}
