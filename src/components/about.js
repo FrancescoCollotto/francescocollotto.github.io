@@ -6,15 +6,15 @@ const About = () => {
     <section id='about'>
       <h1 className='text-center fw-bold mb-5'>About Me</h1>
       <div className="container">
-        <div className="row gy-5">
+        <div className="row gy-5 justify-content-evenly">
           <div className="col-sm-12 col-md-3">
-            <img className='img-fluid rounded' src={profilePic}></img>
+            <img className='img-fluid rounded mt-2' src={profilePic}></img>
           </div>
-          <div className="col-sm-12 col-md-8">
+          <div className="col-sm-12 col-md-8 col-xl-6">
           <p className='px-lg-5'>
-              Hello World! Like most of the beginners that was the first line of code I wrote about 12 months ago, 
+              <span className='fw-light'>'Hello World!'</span> Like most of the newbies this was the first line of code I wrote about 12 months ago, 
               I immediately fell in love with the endless possibilities of programming and since then I started my coding
-              journey through self-directed learning with the basics of HTML, CSS and JS. In November '21 I decided to take
+              journey through self-directed learning with the basics of HTML, CSS and JS.<br /> In November '21 I decided to take
               the next step forward and I joined <a href="https://www.makers.tech/">Makers Academy</a>, a 16-week intensive coding bootcamp, where I learned to code with 
               Ruby, Rails, SQL databases, Javascript, NodeJS. I became well-versed in Object-Oriented-Programming, Test-Driven-Development 
               and working through agile methodologies with daily stand-up during group projects and weekly retrospective throughout
