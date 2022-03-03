@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+
+const githubIcon = <FontAwesomeIcon icon={faGithubSquare} size="2xl"/>
+
 const Projects = () => {
   const img = "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80"
   return (
@@ -11,7 +16,7 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary"></a>
+                <a href="#" className="card-link link-dark">{githubIcon}</a>
               </div>
             </div>
           </div>
