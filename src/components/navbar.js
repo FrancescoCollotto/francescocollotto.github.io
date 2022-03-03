@@ -11,9 +11,9 @@ const Navbar = () => {
       <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <div className="navbar-nav">
               <a className="nav-item nav-link pl-lg-4" href="#about">About</a>
-              <a className="nav-item nav-link pl-lg-4" href="#">Projects</a>
+              <a className="nav-item nav-link pl-lg-4" href="#projects">Projects</a>
               <a className="nav-item nav-link pl-lg-4" href="#">Skills</a>
-              <a className="nav-item nav-link pl-lg-4" href="#">Contact</a>
+              <a className="nav-item nav-link pl-lg-4" href="#contact">Contact</a>
           </div>
       </div>
     </nav>
