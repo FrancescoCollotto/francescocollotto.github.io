@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-// import herokuLogo from '../heroku-logo.svg';
 import './projectCard.css';
 
 const githubIcon = <FontAwesomeIcon icon={faGithubSquare}/>
