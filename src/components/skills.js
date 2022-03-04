@@ -31,6 +31,13 @@ const Skills = () => {
           <div className="col-4 col-sm-2 col-lg-1 text-center">{dbIcon}<br/>MongoDB</div>
           <div className="col-4 col-sm-2 col-lg-1 text-center">{gitIcon}<br/>Git</div>
         </div>
+        <h5 className="text-center my-5 text-decoration-underline">Testing Frameworks</h5>
+        <p className='text-center'>
+          <strong>Ruby:</strong> Rspec, Capybara
+        </p>
+        <p className='text-center'>
+          <strong>Javascript:</strong> Jest
+        </p>
       </div>
     </section>
   )
