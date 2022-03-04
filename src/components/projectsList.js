@@ -18,7 +18,7 @@ const ProjectsList = () => {
   
   return (
     <section id="projects" className="py-5">
-      <h1 className='text-center fw-bold mb-5'>Projects</h1>
+      <h2 className='text-center fw-bold mb-5'>Projects</h2>
       <div class="container">
         <div class="row gy-5">
           {projectsElement}
