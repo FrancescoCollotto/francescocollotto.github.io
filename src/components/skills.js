@@ -44,7 +44,3 @@ const Skills = () => {
 }
 
 export default Skills;
-
-// html, CSS, Javascript, React, NodeJS, Ruby, Rails, Postgres, MongoDB, git
-// Rspec, Capybara, Jest
-// Agile:

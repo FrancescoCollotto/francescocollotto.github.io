@@ -1,0 +1,18 @@
+#contact {
+  background: linear-gradient(to right, #0d3b5a, #325670);
+  color: white;
+}
+
+li {
+  margin: 10px 0;
+  width: 120px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ff9628;
+}
