@@ -1,3 +1,4 @@
+import ContactForm from './contactForm';
 import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -24,7 +25,7 @@ const Contact = () => {
           </div>
           <div className='col-12 col-md-6'>
             <h2 className="text-center fw-bold">Drop a message</h2>
-            {/* form */}
+            <ContactForm />
           </div>
         </div>
       </div>

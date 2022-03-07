@@ -19,8 +19,8 @@ const ProjectsList = () => {
   return (
     <section id="projects" className="py-5">
       <h2 className='text-center fw-bold mb-5'>Projects</h2>
-      <div class="container">
-        <div class="row gy-5">
+      <div className="container">
+        <div className="row gy-5">
           {projectsElement}
         </div>
         <p className="mt-5"><span className="fw-bold">What's next?: </span>I'm currently learning more React and advanced Javascript concepts 

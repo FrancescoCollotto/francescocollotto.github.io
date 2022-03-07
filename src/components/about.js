@@ -8,7 +8,7 @@ const About = () => {
       <div className="container">
         <div className="row gy-5 justify-content-evenly">
           <div className="col-sm-12 col-md-3">
-            <img className='img-fluid rounded mt-2' src={profilePic}></img>
+            <img className='img-fluid rounded mt-2' src={profilePic} alt='profile'></img>
           </div>
           <div className="col-sm-12 col-md-8 col-xl-6">
           <p className='px-lg-5'>
