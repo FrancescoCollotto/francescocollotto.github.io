@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c871bef.css",
+    "main.js": "/static/js/main.f6bfe7e7.js",
+    "static/js/787.f2a0fa2f.chunk.js": "/static/js/787.f2a0fa2f.chunk.js",
+    "static/media/makersBnB.png": "/static/media/makersBnB.c5842d213738be6b425a.png",
+    "static/media/devote.png": "/static/media/devote.26bf9aa8e34ac67d9329.png",
+    "static/media/news.png": "/static/media/news.e60e299d9d5ccea1e987.png",
+    "static/media/gemJunkies.png": "/static/media/gemJunkies.60fbcf06037c6a3d6af9.png",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.f86944728f48c9fb1132.jpg",
+    "static/media/heroku-logo.svg": "/static/media/heroku-logo.fc6841e4e9dee430a5e1.svg",
+    "index.html": "/index.html",
+    "main.1c871bef.css.map": "/static/css/main.1c871bef.css.map",
+    "main.f6bfe7e7.js.map": "/static/js/main.f6bfe7e7.js.map",
+    "787.f2a0fa2f.chunk.js.map": "/static/js/787.f2a0fa2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c871bef.css",
+    "static/js/main.f6bfe7e7.js"
+  ]
+}
