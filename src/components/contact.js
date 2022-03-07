@@ -2,12 +2,13 @@ import ContactForm from './contactForm';
 import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faDownLong } from '@fortawesome/free-solid-svg-icons'
 
 const githubIcon = <FontAwesomeIcon icon={faGithub} size="xl"/>
 const mailIcon = <FontAwesomeIcon icon={faEnvelope} size="xl"/>
 const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} size="xl"/>
 const twitterIcon = <FontAwesomeIcon icon={faTwitter} size="xl"/>
+const downIcon = <FontAwesomeIcon icon={faDownLong} size="xl"/>
 
 const Contact = () => {
   return (
@@ -25,7 +26,7 @@ const Contact = () => {
           </div>
           <div className='col-12 col-md-6'>
             <h2 className="text-center fw-bold">Drop a message</h2>
-            <ContactForm />
+            <ContactForm downIcon={downIcon}/>
           </div>
         </div>
       </div>

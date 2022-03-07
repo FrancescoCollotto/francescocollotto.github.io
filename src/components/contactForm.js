@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const ContactForm = () => {
+const ContactForm = ({downIcon}) => {
   const form = useRef();
   const [toSend, setToSend] = useState({
     user_name: '',
@@ -49,6 +49,9 @@ const ContactForm = () => {
     <div className='my-4'>
       {successMessage}
       {failureMessage}
+      <div className='text-center'>
+        <i>{downIcon}</i>
+      </div>
       <form ref={form} onSubmit={sendEmail}>
         <div className='mb-3'>
           <label htmlFor='name' className='form-label'>Name</label>
