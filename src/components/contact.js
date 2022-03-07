@@ -17,11 +17,11 @@ const Contact = () => {
         <div className='row'>
           <div className='col-12 col-md-6'>
             <h2 className="text-center fw-bold">Contacts</h2>
-            <ul className='list-unstyled d-flex flex-column align-items-center my-4 ps-lg-4'>
-              <li><a href='https://github.com/FrancescoCollotto' target="_blank" className='link'><i>{githubIcon}</i> Github</a></li>
-              <li><a href='mailto:francescocollotto@gmail.com' target="_blank" className='link'><i>{mailIcon}</i> Email</a></li>
-              <li><a href='https://www.linkedin.com/in/francesco-collotto-a1a544232' target="_blank" className='link'><i>{linkedinIcon}</i> Linkedin</a></li>
-              <li><a href='https://twitter.com/FranceCollo' target="_blank" className='link'><i>{twitterIcon}</i> Twitter</a></li>
+            <ul className='list-unstyled d-flex flex-column align-items-center my-5 ps-lg-4'>
+              <li><a href='https://github.com/FrancescoCollotto' target="_blank" rel="noreferrer" className='link'><i>{githubIcon}</i> Github</a></li>
+              <li><a href='mailto:francescocollotto@gmail.com' target="_blank" rel="noreferrer" className='link'><i>{mailIcon}</i> Email</a></li>
+              <li><a href='https://www.linkedin.com/in/francesco-collotto-a1a544232' target="_blank" rel="noreferrer" className='link'><i>{linkedinIcon}</i> Linkedin</a></li>
+              <li><a href='https://twitter.com/FranceCollo' target="_blank" rel="noreferrer" className='link'><i>{twitterIcon}</i> Twitter</a></li>
             </ul>
           </div>
           <div className='col-12 col-md-6'>

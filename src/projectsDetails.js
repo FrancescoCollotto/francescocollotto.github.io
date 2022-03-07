@@ -5,6 +5,7 @@ import guardianImg from './news.png';
 
 const projects = [
   {
+    key: 1,
     img: gemJunkiesImg,
     title: "GemJunkies",
     description: "A full CRUD social network app where you can post your thoughts and stay connected with your friends.",
@@ -13,6 +14,7 @@ const projects = [
     heroku: "http://gem-junkies.herokuapp.com"
   },
   {
+    key: 2,
     img: devoteImg,
     title: "Devote",
     description: "Money managing application that let you round up your everyday purchases to the nearest pound, implemented with Ruby on Rails API and React on the client side.",
@@ -20,6 +22,7 @@ const projects = [
     technologies: "Javascript, React, Bootstrap, Ruby, Rails, Postgres",
   },
   {
+    key: 3,
     img: makersBnbImg,
     title: "MakersBnB",
     description: "A full CRUD AirBnB clone made with Ruby where you can signup and post your place to be booked by other users.",
@@ -27,6 +30,7 @@ const projects = [
     technologies: "Ruby, Sinatra, Postgres, RSpec, Capybara",
   },
   {
+    key: 4,
     img: guardianImg,
     title: "Daily news",
     description: "Single page web application to grab all the headlines from the Guardian newspaper API and display them on a page. Focus on DOM manipulation and OOP.",

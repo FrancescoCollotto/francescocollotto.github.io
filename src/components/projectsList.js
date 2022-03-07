@@ -5,6 +5,7 @@ import projects from '../projectsDetails';
 
 const projectsElement = projects.map((project) => {
   return <ProjectCard 
+    key={project.key}
     img={project.img} 
     title={project.title} 
     description={project.description} 
@@ -28,7 +29,7 @@ const ProjectsList = () => {
         </p>
       </div>
       <h4 className="text-center mt-5">
-        Check my <a href="https://github.com/FrancescoCollotto" target="_blank">Github</a> page for more projects
+        Check my <a href="https://github.com/FrancescoCollotto" target="_blank" rel="noreferrer">Github</a> page for more projects
       </h4>
     </section>
   )
